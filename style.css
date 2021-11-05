@@ -21,15 +21,41 @@ body {
   font-size: 50px;
   color: white;
   font-family: monospace;
-  
 }
 
 #licoes_aprendidas {
-    line-height: 40px;
-    margin:100px;
+  line-height: 30px;
+  margin: 30px;
+}
+
+#licoes_a_aprender {
+  line-height: 30px;
 }
 
 #minha_foto {
-    image
+  width: 30%;
+  border-radius: 100%;
+  background-color: black;
+  padding: 10px;
+  margin: 0 auto;
 }
 
+.alinhar {
+  width: 45%;
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  width: 45%;
+  display: inline-block;
+}
+
+.lado-direito {
+  width: 45%;
+  display: inline-block;
+}
+
+#rodape {
+  border: 2px solid green;
+  background-color: green;
+}
